@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="v3d.js"></script>
+    <script src="Lab4_Myasnikova.js"></script>
+    <link rel="stylesheet" type="text/css" href="Lab4_Myasnikova.css">
+<title>Index of My Awesome App</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+<meta name="description" content="Put some description here - remember about SEO!">
+<style>
+#Lr5 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+#play_button, #pause_button, #stop_button, #sound, #menu{
+    font-style: italic;
+    position: absolute;
+    left: 10px;
+    width: 100px;
+    height: 30px;
+    text-shadow: 2px 2px 2px #000;Ы
+    border-radius: 10px;
+    background-color: Indigo;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+#play_button {
+    top: 20px;
+} 
+#pause_button {
+    top: 60px;
+}
+#stop_button {
+    top:  100px;
+}
+#sound {
+    top:  140px;
+}
+#menu {
+    top:  180px;
+}
+select {
+    position: absolute;
+
+    left: -0.1px;
+    font-size: 1.2 rem;
+    padding: 10px 5px;
+    font-style: italic;
+    width: 110px;
+    height: 50px;
+    text-shadow: 2px 2px 2px #000;
+    border-radius: 10px;
+    background-color: Indigo;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
+.v3d-annotation {
+    border-radius: 0px;
+    background: rgba(0, 255, 0, 0.8);
+}
+</style>
+</head>
+
+<body>
+    <iframe id="Lr5" src="Lab4_Myasnikova.html"></iframe>
+
+    <div id="play_button">Play</div>
+    <div id="pause_button">Pause</div>
+    <div id="stop_button">Stop</div>
+    <div id="sound">Sound on/off</div>
+    <div id="menu"><form>
+    <select>
+        <button><option>Menu</option></button>
+        <option id="vaffel1">move vaffel1</option>
+        <option id="vaffel2">move vaffel2</option>
+        <option id="vaffel3">move vaffel3</option>
+    </select></form></div>
+</body>
+
+</html>  

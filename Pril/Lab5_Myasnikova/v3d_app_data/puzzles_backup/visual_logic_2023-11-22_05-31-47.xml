@@ -1,0 +1,273 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="20" scrolly="0" scale="0.9"></tab>
+  <tab name="New Tab" type="CommonTab" active="true" scrollx="227.09543291869795" scrolly="-62.59618846823656" scale="0.6383493912422826">
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="0QeB`Ra%W{~)p:xQ}[ah" x="-70" y="-10">
+      <field name="EVENT">mousedown</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <shadow type="text" id="_`Y5w(H3i4GxYsY0yt(g">
+          <field name="TEXT">play_button</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="playAnimationAdv" id="NdERimH1:Wh$$uYv@@~l">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+          <field name="REVERSED">FALSE</field>
+          <field name="LOOP">AUTO</field>
+          <value name="VALUE">
+            <shadow type="animationList" id="{0(m}!-v,m?i~%NEW70a">
+              <field name="FIELDNAME">Suzanne</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="playAnimationAdv" id="kkwWZs1aA$=l6PdzE9f9">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+              <field name="REVERSED">FALSE</field>
+              <field name="LOOP">AUTO</field>
+              <value name="VALUE">
+                <shadow type="animationList" id="7QV%y-%eF%rx)l7$U7Q$">
+                  <field name="FIELDNAME">Cube1</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="playAnimationAdv" id="c|)TS4K]:A``CD$I9_rf">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+                  <field name="REVERSED">FALSE</field>
+                  <field name="LOOP">AUTO</field>
+                  <value name="VALUE">
+                    <shadow type="animationList" id="B,hlCrLA#%ut)((:OE#c">
+                      <field name="FIELDNAME">Sphere.001</field>
+                    </shadow>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+      <next>
+        <block type="eventHTMLElem" id="j2r8i?Ylf{IJ6Cbdq?%f">
+          <field name="EVENT">mousedown</field>
+          <field name="PARENT">TRUE</field>
+          <value name="ID">
+            <shadow type="text" id=";zkP_5=o@FOXCre6R3qH">
+              <field name="TEXT">pause_button</field>
+            </shadow>
+          </value>
+          <statement name="DO">
+            <block type="pauseAnimation" id="MeH%crye4AD7-;/8]Uxj">
+              <value name="VALUE">
+                <shadow type="animationList" id="V:/U]1{k(X3DB|mO3YUR">
+                  <field name="FIELDNAME">Suzanne</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="pauseAnimation" id="EDCou8[1^Fn-TZQGc^xq">
+                  <value name="VALUE">
+                    <shadow type="animationList" id="p(xb9]hQ0S!7cs8sO_w/">
+                      <field name="FIELDNAME">Cube1</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="pauseAnimation" id="E/z1.zO-$YgTIJ{9[BR%">
+                      <value name="VALUE">
+                        <shadow type="animationList" id="dH~c_SZ`Dc8bruvD9}dJ">
+                          <field name="FIELDNAME">Sphere.001</field>
+                        </shadow>
+                      </value>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <next>
+            <block type="eventHTMLElem" id=".{(3/G,s~WKNbBB6Sa.z">
+              <field name="EVENT">mousedown</field>
+              <field name="PARENT">TRUE</field>
+              <value name="ID">
+                <shadow type="text" id="pRJa9%pvd?]),)GZ4I)R">
+                  <field name="TEXT">stop_button</field>
+                </shadow>
+              </value>
+              <statement name="DO">
+                <block type="stopAnimation" id="yfWZ9_x13~O/#XyGZ8Pp">
+                  <value name="VALUE">
+                    <shadow type="animationList" id="09YxC@)|}t3BN$~k}`e?">
+                      <field name="FIELDNAME">Cube1</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="stopAnimation" id="K):r5Lj?DDE#mZK7C|ie">
+                      <value name="VALUE">
+                        <shadow type="animationList" id="B0v3Rh4}d0JRNSLd~/Az">
+                          <field name="FIELDNAME">Sphere.001</field>
+                        </shadow>
+                      </value>
+                      <next>
+                        <block type="stopAnimation" id="FpiID[dOEYFjTI2~`;AH">
+                          <value name="VALUE">
+                            <shadow type="animationList" id="g(2awi4HOnOp,v};(jcP">
+                              <field name="FIELDNAME">Suzanne</field>
+                            </shadow>
+                          </value>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </statement>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="hS%ehO(!0JM^iK.M)Cyu" x="-110" y="490">
+      <field name="EVENT">mousedown</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <shadow type="text" id="-*S,3_Wy0Hm*[9Q%,JDV">
+          <field name="TEXT">menu</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="addAnnotation" id="9`_y-d]fscXtvZf;X-}N">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+          <value name="ANNOTATION">
+            <shadow type="text" id="b!CR29}?gA.3%37eAxLN">
+              <field name="TEXT">Cup</field>
+            </shadow>
+          </value>
+          <value name="TARGET">
+            <shadow type="objectList" id="v5Gp%C_@I7b!YqE*,Xst">
+              <field name="FIELDNAME">chashka</field>
+            </shadow>
+          </value>
+          <value name="CONTENTS">
+            <shadow type="text" id="k5jauY3OXdoSC5^+2hT|">
+              <field name="TEXT">Point of interest #1</field>
+            </shadow>
+          </value>
+          <value name="ID">
+            <shadow type="text" id="`$]`lO7-j23#(`zxxX=4">
+              <field name="TEXT">poi1</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="addAnnotation" id="x#LjHpzrn)2O#1l=OmbE">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+              <value name="ANNOTATION">
+                <shadow type="text" id="$ottnt*=+7/8uMDraDLx">
+                  <field name="TEXT">Name</field>
+                </shadow>
+              </value>
+              <value name="TARGET">
+                <shadow type="objectList" id="_b5@F|Un_r^gJ)RYUt`M">
+                  <field name="FIELDNAME">text</field>
+                </shadow>
+              </value>
+              <value name="CONTENTS">
+                <shadow type="text" id="!Ui^a%7mpsQ6Mx#9rB,m">
+                  <field name="TEXT">Point of interest #2</field>
+                </shadow>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="a;%Im.VFh/OyQM`*J`4d">
+                  <field name="TEXT">poi2</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="addAnnotation" id="T.aWQ3gR`L.B){2/;U#P">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+                  <value name="ANNOTATION">
+                    <shadow type="text" id="7{pL`L-pxQE1kNug%vh|">
+                      <field name="TEXT">Sweet</field>
+                    </shadow>
+                  </value>
+                  <value name="TARGET">
+                    <shadow type="objectList" id="oYb;.W|][am@Opn(5|d$">
+                      <field name="FIELDNAME">Sphere.003</field>
+                    </shadow>
+                  </value>
+                  <value name="CONTENTS">
+                    <shadow type="text" id="i0b?grb!+$@7]N=F$N-2">
+                      <field name="TEXT">Point of interest #3</field>
+                    </shadow>
+                  </value>
+                  <value name="ID">
+                    <shadow type="text" id="d3s4wCLyc@t;UEc8K+$Q">
+                      <field name="TEXT">poi3</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="addAnnotation" id="$YSI!m:Uojg%=F:rN6bp">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+                      <value name="ANNOTATION">
+                        <shadow type="text" id="9/;yP!/G/h[J#}[L+m5Q">
+                          <field name="TEXT">Vaffel</field>
+                        </shadow>
+                      </value>
+                      <value name="TARGET">
+                        <shadow type="objectList" id="P^i$^-gIg,fubxfYr4rZ">
+                          <field name="FIELDNAME">Cube2</field>
+                        </shadow>
+                      </value>
+                      <value name="CONTENTS">
+                        <shadow type="text" id="j~bC=UCD:7M4#w8*;9E(">
+                          <field name="TEXT">Point of interest #4</field>
+                        </shadow>
+                      </value>
+                      <value name="ID">
+                        <shadow type="text" id="idH!9J/a0odjG(.Mhbp~">
+                          <field name="TEXT">poi1</field>
+                        </shadow>
+                      </value>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="{tFGU{mh}oIE9XD?nSw-" inline="false" x="-90" y="770">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="C;r6$@GJ,jyPS}_s]Yqg">
+          <field name="FIELDNAME">Grid</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="synthSound" id="Ook37rVB9SK9p5sJbQL^">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" synth_command_type="NOTE_ON"></mutation>
+          <field name="TYPE">NOTE_ON</field>
+          <field name="CHANNEL">0</field>
+          <field name="PROGRAM">0</field>
+          <value name="NOTE">
+            <shadow type="getNoteNumber" id="yQf/*y?ZycVYGAY]L=]P">
+              <field name="NOTE">0</field>
+              <field name="OCTAVE">4</field>
+            </shadow>
+          </value>
+          <value name="VELOCITY">
+            <shadow type="math_number" id="6c,tZu`MO/469qgSdDz;">
+              <field name="NUM">100</field>
+            </shadow>
+          </value>
+          <value name="TIME">
+            <shadow type="math_number" id="3Bl.K+E?#t@N9Q0OEZm$">
+              <field name="NUM">0</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1170.0000122070312" viewport-y="37" viewport-w="300" viewport-h="374" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

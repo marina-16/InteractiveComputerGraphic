@@ -1,0 +1,37 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="20" scrolly="20.000000000000114" scale="0.9"></tab>
+  <tab name="New Tab" type="CommonTab" active="true" scrollx="20.000000000000114" scrolly="29.600006103515852" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="kJJlxf)$b/M#KMyhP!_M" inline="false" x="70" y="10">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="true"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="D!+jIr;aRcInH/B+FPO^">
+          <field name="FIELDNAME">Cylinder.001</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="show" id="0nFVtVl*c%,/fB=tUjr{">
+          <value name="VALUE">
+            <shadow type="objectList" id="`BP%hKBq7h$B)A_7m:NT">
+              <field name="FIELDNAME">Cylinder.001</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+      <statement name="IF_MISSED_DO">
+        <block type="show" id="c{1aU61PF9QzfEhja!F@">
+          <value name="VALUE">
+            <shadow type="objectList" id="_LOLy%zRGBq~6,5ev4IT">
+              <field name="FIELDNAME">Cylinder.001</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="874.8" viewport-y="37" viewport-w="595.2" viewport-h="374" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

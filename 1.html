@@ -1,0 +1,33 @@
+!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<title>ИКГ_Сенсор - Цилиндрический</title>
+<link rel="stylesheet"
+href="https://www.x3dom.org/download/dev/x3dom.css" />
+<script src="https://www.x3dom.org/download/dev/x3dom-full.js"></script>
+<body>
+<h1 style="font-family:Times New Roman; text-align: left; color:chartreuse;">ИКГ Цилиндрический
+Сенсор</h1>
+<X3D id="x3d" xmlns="https://www.x3dom.org/x3dom">
+<Scene>
+<Group>
+<transform DEF="Cylinder1" translation='0.3 0.4 0.3'>
+<Shape>
+<Appearance>
+<PixelTexture image='2 2 4 0xff0000ff 0x00ff00ff 0xff00ffff 0xffff00ff'>
+<TextureProperties></TextureProperties>
+</PixelTexture>
+</Appearance>
+<cylinder height="2"></cylinder>
+</Shape>
+
+<CylinderSensor DEF='CYLINDER_SENSOR' autoOffset='true' axisRotation='0,1,0,0' enabled='true'>
+</CylinderSensor>
+</Group>
+<ROUTE fromNode='СYLINDER_SENSOR' fromField='rotation_changed' toNode='Cylinder1'
+toField='rotation'></ROUTE>
+</Scene>
+</X3D>
+</body>
+</html>

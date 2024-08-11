@@ -1,0 +1,127 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="20" scrolly="0" scale="0.9"></tab>
+  <tab name="New Tab" type="CommonTab" active="true" scrollx="219.20221894532438" scrolly="70.95930961333218" scale="0.6935539619171462">
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="0QeB`Ra%W{~)p:xQ}[ah" x="-290" y="150">
+      <field name="EVENT">mousedown</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <shadow type="text" id="_`Y5w(H3i4GxYsY0yt(g">
+          <field name="TEXT">play</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="playAnimationAdv" id="NdERimH1:Wh$$uYv@@~l">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+          <field name="REVERSED">FALSE</field>
+          <field name="LOOP">AUTO</field>
+          <value name="VALUE">
+            <shadow type="animationList" id="{0(m}!-v,m?i~%NEW70a">
+              <field name="FIELDNAME">Suzanne</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="playAnimationAdv" id="kkwWZs1aA$=l6PdzE9f9">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+              <field name="REVERSED">FALSE</field>
+              <field name="LOOP">AUTO</field>
+              <value name="VALUE">
+                <shadow type="animationList" id="7QV%y-%eF%rx)l7$U7Q$">
+                  <field name="FIELDNAME">Cube1</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="playAnimationAdv" id="c|)TS4K]:A``CD$I9_rf">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+                  <field name="REVERSED">FALSE</field>
+                  <field name="LOOP">AUTO</field>
+                  <value name="VALUE">
+                    <shadow type="animationList" id="B,hlCrLA#%ut)((:OE#c">
+                      <field name="FIELDNAME">Sphere.001</field>
+                    </shadow>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+      <next>
+        <block type="eventHTMLElem" id="j2r8i?Ylf{IJ6Cbdq?%f">
+          <field name="EVENT">mousedown</field>
+          <field name="PARENT">TRUE</field>
+          <value name="ID">
+            <shadow type="text" id=";zkP_5=o@FOXCre6R3qH">
+              <field name="TEXT">pause</field>
+            </shadow>
+          </value>
+          <statement name="DO">
+            <block type="pauseAnimation" id="MeH%crye4AD7-;/8]Uxj">
+              <value name="VALUE">
+                <shadow type="animationList" id="V:/U]1{k(X3DB|mO3YUR">
+                  <field name="FIELDNAME">Suzanne</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="pauseAnimation" id="EDCou8[1^Fn-TZQGc^xq">
+                  <value name="VALUE">
+                    <shadow type="animationList" id="p(xb9]hQ0S!7cs8sO_w/">
+                      <field name="FIELDNAME">Cube1</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="pauseAnimation" id="E/z1.zO-$YgTIJ{9[BR%">
+                      <value name="VALUE">
+                        <shadow type="animationList" id="dH~c_SZ`Dc8bruvD9}dJ">
+                          <field name="FIELDNAME">Sphere.001</field>
+                        </shadow>
+                      </value>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <next>
+            <block type="eventHTMLElem" id=".{(3/G,s~WKNbBB6Sa.z">
+              <field name="EVENT">mousedown</field>
+              <field name="PARENT">TRUE</field>
+              <value name="ID">
+                <shadow type="text" id="pRJa9%pvd?]),)GZ4I)R">
+                  <field name="TEXT">stop</field>
+                </shadow>
+              </value>
+              <statement name="DO">
+                <block type="stopAnimation" id="yfWZ9_x13~O/#XyGZ8Pp">
+                  <value name="VALUE">
+                    <shadow type="animationList" id="09YxC@)|}t3BN$~k}`e?">
+                      <field name="FIELDNAME">Cube1</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="stopAnimation" id="K):r5Lj?DDE#mZK7C|ie">
+                      <value name="VALUE">
+                        <shadow type="animationList" id="B0v3Rh4}d0JRNSLd~/Az">
+                          <field name="FIELDNAME">Sphere.001</field>
+                        </shadow>
+                      </value>
+                      <next>
+                        <block type="stopAnimation" id="FpiID[dOEYFjTI2~`;AH">
+                          <value name="VALUE">
+                            <shadow type="animationList" id="g(2awi4HOnOp,v};(jcP">
+                              <field name="FIELDNAME">Suzanne</field>
+                            </shadow>
+                          </value>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </statement>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1170.0000122070312" viewport-y="37" viewport-w="300" viewport-h="374" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
